@@ -1,0 +1,227 @@
+{
+  "k": 5,
+  "best_k_by_index_2d": {
+    "silhouette": 5,
+    "davies_bouldin": 5,
+    "calinski_harabasz": 9
+  },
+  "best_k_by_index_3d": {
+    "silhouette": 6,
+    "davies_bouldin": 7,
+    "calinski_harabasz": 6
+  },
+  "silhouette_k5": 0.5546571631111091,
+  "bootstrap_ari": {
+    "median": 0.9729685818693202,
+    "p5": 0.9287741920003519,
+    "mean": 0.9724034201938748,
+    "n": 100
+  },
+  "k_scores_2d": [
+    {
+      "k": 2,
+      "inertia": 269.691,
+      "silhouette": 0.3213,
+      "davies_bouldin": 1.267,
+      "calinski_harabasz": 95.6694
+    },
+    {
+      "k": 3,
+      "inertia": 157.704,
+      "silhouette": 0.4666,
+      "davies_bouldin": 0.7165,
+      "calinski_harabasz": 151.3351
+    },
+    {
+      "k": 4,
+      "inertia": 108.9213,
+      "silhouette": 0.4939,
+      "davies_bouldin": 0.7096,
+      "calinski_harabasz": 174.5952
+    },
+    {
+      "k": 5,
+      "inertia": 65.5684,
+      "silhouette": 0.5547,
+      "davies_bouldin": 0.5722,
+      "calinski_harabasz": 248.6493
+    },
+    {
+      "k": 6,
+      "inertia": 55.0573,
+      "silhouette": 0.5399,
+      "davies_bouldin": 0.6546,
+      "calinski_harabasz": 243.0879
+    },
+    {
+      "k": 7,
+      "inertia": 44.8648,
+      "silhouette": 0.5281,
+      "davies_bouldin": 0.7148,
+      "calinski_harabasz": 254.6212
+    },
+    {
+      "k": 8,
+      "inertia": 37.1481,
+      "silhouette": 0.4567,
+      "davies_bouldin": 0.7579,
+      "calinski_harabasz": 267.9142
+    },
+    {
+      "k": 9,
+      "inertia": 32.3923,
+      "silhouette": 0.4571,
+      "davies_bouldin": 0.7632,
+      "calinski_harabasz": 270.9484
+    },
+    {
+      "k": 10,
+      "inertia": 29.6858,
+      "silhouette": 0.4362,
+      "davies_bouldin": 0.7645,
+      "calinski_harabasz": 263.3497
+    }
+  ],
+  "k_scores_3d": [
+    {
+      "k": 2,
+      "inertia": 389.3862,
+      "silhouette": 0.3355,
+      "davies_bouldin": 1.2607,
+      "calinski_harabasz": 107.0956
+    },
+    {
+      "k": 3,
+      "inertia": 295.2122,
+      "silhouette": 0.3578,
+      "davies_bouldin": 1.0503,
+      "calinski_harabasz": 101.6949
+    },
+    {
+      "k": 4,
+      "inertia": 205.2251,
+      "silhouette": 0.404,
+      "davies_bouldin": 0.9308,
+      "calinski_harabasz": 125.6764
+    },
+    {
+      "k": 5,
+      "inertia": 168.2476,
+      "silhouette": 0.4166,
+      "davies_bouldin": 0.8746,
+      "calinski_harabasz": 125.1009
+    },
+    {
+      "k": 6,
+      "inertia": 133.8683,
+      "silhouette": 0.4274,
+      "davies_bouldin": 0.8277,
+      "calinski_harabasz": 135.1022
+    },
+    {
+      "k": 7,
+      "inertia": 117.0116,
+      "silhouette": 0.4172,
+      "davies_bouldin": 0.7935,
+      "calinski_harabasz": 132.7743
+    },
+    {
+      "k": 8,
+      "inertia": 103.8286,
+      "silhouette": 0.4087,
+      "davies_bouldin": 0.8893,
+      "calinski_harabasz": 131.0744
+    },
+    {
+      "k": 9,
+      "inertia": 92.3495,
+      "silhouette": 0.4201,
+      "davies_bouldin": 0.8541,
+      "calinski_harabasz": 131.2423
+    },
+    {
+      "k": 10,
+      "inertia": 81.9871,
+      "silhouette": 0.3973,
+      "davies_bouldin": 0.9056,
+      "calinski_harabasz": 133.3848
+    }
+  ],
+  "algorithms": [
+    {
+      "algorithm": "K-Means",
+      "silhouette": 0.5547,
+      "davies_bouldin": 0.5722,
+      "ARI vs K-Means": 1.0
+    },
+    {
+      "algorithm": "Hierarchical (Ward)",
+      "silhouette": 0.5538,
+      "davies_bouldin": 0.5779,
+      "ARI vs K-Means": 0.942
+    },
+    {
+      "algorithm": "Gaussian mixture",
+      "silhouette": 0.5537,
+      "davies_bouldin": 0.576,
+      "ARI vs K-Means": 0.9565
+    }
+  ],
+  "profiles": [
+    {
+      "cluster": 2,
+      "segment": "Impulsive budget shoppers",
+      "customers": 22,
+      "share_%": 11.0,
+      "avg_income_k": 25.7,
+      "avg_spending_score": 79.4,
+      "avg_age": 25.3,
+      "female_%": 59.1,
+      "suggested_action": "Promotions and bundles; watch credit/returns risk"
+    },
+    {
+      "cluster": 4,
+      "segment": "Budget conscious",
+      "customers": 23,
+      "share_%": 11.5,
+      "avg_income_k": 26.3,
+      "avg_spending_score": 20.9,
+      "avg_age": 45.2,
+      "female_%": 60.9,
+      "suggested_action": "Value ranges, discount days, low-cost retention"
+    },
+    {
+      "cluster": 0,
+      "segment": "Average customers",
+      "customers": 81,
+      "share_%": 40.5,
+      "avg_income_k": 55.3,
+      "avg_spending_score": 49.5,
+      "avg_age": 42.7,
+      "female_%": 59.3,
+      "suggested_action": "Standard campaigns; upsell toward the premium segment"
+    },
+    {
+      "cluster": 1,
+      "segment": "Premium spenders",
+      "customers": 39,
+      "share_%": 19.5,
+      "avg_income_k": 86.5,
+      "avg_spending_score": 82.1,
+      "avg_age": 32.7,
+      "female_%": 53.8,
+      "suggested_action": "Loyalty / VIP programme, early access, premium lines"
+    },
+    {
+      "cluster": 3,
+      "segment": "Careful affluent",
+      "customers": 35,
+      "share_%": 17.5,
+      "avg_income_k": 88.2,
+      "avg_spending_score": 17.1,
+      "avg_age": 41.1,
+      "female_%": 45.7,
+      "suggested_action": "Find out why they hold back: quality, service, personalised offers"
+    }
+  ]
+}

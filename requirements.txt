@@ -1,0 +1,9 @@
+# Pinned: models/kmeans_segments.joblib is a pickle tied to this version
+scikit-learn==1.9.1
+numpy>=2.0
+pandas>=2.2
+matplotlib>=3.9
+joblib>=1.4
+tabulate>=0.9
+pytest>=8
+# To re-run the notebook: pip install jupyter
